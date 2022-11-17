@@ -435,4 +435,10 @@ img {
     right: 50%;
     left: 50%;
   }
+}
+.hero {
+  padding: 153px 0;
+  background-image: url("../../images/hero-bgi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }/*# sourceMappingURL=main.css.map */
