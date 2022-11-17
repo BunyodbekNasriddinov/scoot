@@ -1,8 +1,18 @@
 //************//
 //*** HERO ***//
 //************//
+.hero {
+  padding: 153px 0;
+  background-image: url("../../images/hero-bgi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
-
+.hero__inner {
+  background-image: url("../../images/left-arrow.svg"),
+    url("../../images/circles.png");
+  background-repeat: no-repeat, no-repeat;
+}
 
 //**************//
 //***HERO END***//
