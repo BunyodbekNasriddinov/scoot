@@ -448,12 +448,64 @@ img {
 }
 .hero {
   padding: 153px 0;
-  background-image: url("../../images/hero-bgi.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: url("../../images/circles.png"), url("../../images/left-arrow.svg"), url("../../images/hero-bgi.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 234px 62px, 447px 140px, 100%;
+  background-position: calc(50% + 610px) calc(100% - 90px), calc(50% + 200px) calc(50% + 130px), 0 0;
 }
 
 .hero__inner {
-  background-image: url("../../images/left-arrow.svg"), url("../../images/circles.png");
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
+}
+
+.hero__title-inner {
+  width: 100%;
+  max-width: 500px;
+}
+
+.hero__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+
+.hero__desc-inner {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 100%;
+  max-width: 405px;
+}
+
+.hero__line {
+  position: absolute;
+  top: 55px;
+  left: -260px;
+  display: block;
+  width: 203px;
+  height: 15px;
+  background-color: #fcb72b;
+}
+
+.hero__desc {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.hero__link {
+  display: inline-block;
+  margin: 40px 0 0;
+}
+.hero__link:hover {
+  background-color: #495567;
 }/*# sourceMappingURL=main.css.map */
