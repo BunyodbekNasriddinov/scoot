@@ -41,12 +41,24 @@
   line-height: 25px;
   text-decoration: none;
   color: #939caa;
+
+  &:hover {
+    color: #fcb72b;
+  }
 }
 
 .main-btn {
   padding: 14px 39px;
+  text-decoration: none;
   color: #fff;
   background-color: #fcb72b;
+  border: 3px solid transparent;
+
+  &:hover {
+    border-color: #fcb72b;
+    color: #fcb72b;
+    background-color: #fff;
+  }
 }
 
 .navbar__item:last-child {

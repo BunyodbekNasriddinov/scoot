@@ -409,11 +409,21 @@ img {
   text-decoration: none;
   color: #939caa;
 }
+.navbar__link:hover {
+  color: #fcb72b;
+}
 
 .main-btn {
   padding: 14px 39px;
+  text-decoration: none;
   color: #fff;
   background-color: #fcb72b;
+  border: 3px solid transparent;
+}
+.main-btn:hover {
+  border-color: #fcb72b;
+  color: #fcb72b;
+  background-color: #fff;
 }
 
 .navbar__item:last-child {
@@ -441,4 +451,9 @@ img {
   background-image: url("../../images/hero-bgi.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.hero__inner {
+  background-image: url("../../images/left-arrow.svg"), url("../../images/circles.png");
+  background-repeat: no-repeat, no-repeat;
 }/*# sourceMappingURL=main.css.map */
