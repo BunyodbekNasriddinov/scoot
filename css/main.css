@@ -388,11 +388,11 @@ img {
 }
 
 .navbar__list {
+  display: flex;
+  align-items: center;
   margin: 0;
   margin-left: 60px;
   padding: 0;
-  display: flex;
-  align-items: center;
   list-style-type: none;
 }
 
